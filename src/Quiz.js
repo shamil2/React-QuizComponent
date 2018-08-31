@@ -4,7 +4,7 @@ import QuizEnd from './QuizEnd';
 
 
 let quizData = require('./quiz_data.json')
-export default class Quiz extends Component {
+class Quiz extends Component {
 
     constructor(props) {
         super(props)
@@ -31,3 +31,4 @@ const isQuizEnd =((this.state.quiz_position-1)=== quizData.quiz_questions.length
         )
     }
 }
+export default Quiz 

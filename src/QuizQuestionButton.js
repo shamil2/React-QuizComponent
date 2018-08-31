@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class QuizQuestionButton extends Component {
+class QuizQuestionButton extends Component {
 
     handleClick(){
         this.props.clickHandler(this.props.button_text)
@@ -15,3 +15,4 @@ export default class QuizQuestionButton extends Component {
     )
   }
 }
+export default QuizQuestionButton;

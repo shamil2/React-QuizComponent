@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import QuizQuestionButton from './QuizQuestionButton';
 
-export default class QuizQuestion extends Component {
+class QuizQuestion extends Component {
     constructor(props){
         super(props)
         this.state= {incorrectAnswer :false}
@@ -37,3 +37,4 @@ else{
     )
   }
 }
+export default QuizQuestion
