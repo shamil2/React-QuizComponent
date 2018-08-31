@@ -29,7 +29,6 @@ else{
                   clickHandler={this.handleClick.bind(this)}
                   />
               })}
-            <QuizQuestionButton button_text={this.props.quiz_question.answer_options[0]}/>
           </ul>
         </section>
         {this.state.incorrectAnswer ? <p className='error'>Sorry that's not right</p>: null}
